@@ -24,7 +24,7 @@ if check_password():
     prodotti = ['']
     for doc in docs:
         prodotti.append(doc.id)
-    st.header('Crea scheda')
+    st.header('Visualizza scheda')
     bacheca = st.selectbox('Seleziona la bacheca', prodotti)
         
         
