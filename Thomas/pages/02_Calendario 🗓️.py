@@ -92,7 +92,7 @@ if autenticazione():
         gd.configure_selection(selection_mode='multiple', use_checkbox=True)
         gd.configure_grid_options(enableCellTextSelection=True)
         gd.configure_grid_options(ensureDomOrder=True)
-        gd.configure_pagination(enabled=True, paginationAutoPageSize=False, paginationPageSize=6)
+        gd.configure_pagination(enabled=True, paginationAutoPageSize=False)
 
         gridOptions = gd.build()
 
